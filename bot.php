@@ -21,7 +21,7 @@ if (!is_null($events['events'])) {
 			// Build message to reply back
 			$messages = [
 				'type' => 'text',
-				'text' => "Intraday\r\nhttps://marketdata.set.or.th/mkt/realtimestockchart?symbol=".$text."&type=AccValue"
+				'text' => "Intraday\r\nhttps://marketdata.set.or.th/mkt/realtimestockchart?symbol=".$text."&type=AccValue\r\nConsensus\r\nhttp://www.settrade.com/AnalystConsensus/C04_10_stock_saa_p1.jsp?txtSymbol=".$text."&selectPage=10&sortBy=-11"
 			];
 
 			// Make a POST Request to Messaging API to reply to sender
